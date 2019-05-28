@@ -3,7 +3,7 @@ class Dog < ActiveRecord::Base
   
   
   def self.update(x)
-    student =   
+    self.update(x)  
   end 
   
   def self.find_by_name(name)
