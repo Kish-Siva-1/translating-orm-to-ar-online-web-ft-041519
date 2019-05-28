@@ -4,4 +4,5 @@ class Dog < ActiveRecord::Base
   def self.find_by_name(name:)
     self.find_by(name)
   end 
+  
 end
