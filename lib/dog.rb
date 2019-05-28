@@ -7,7 +7,7 @@ class Dog < ActiveRecord::Base
   end 
   
   def self.find_by_name(name)
-    self.find_by(name: name)
+    #self.find_by(name: name)
   end 
   
 end
