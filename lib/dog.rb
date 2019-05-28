@@ -3,6 +3,7 @@ class Dog < ActiveRecord::Base
   
   
   def self.update(x)
+    binding.pry
     self.update(x)  
   end 
   
