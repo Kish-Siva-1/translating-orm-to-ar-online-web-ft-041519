@@ -2,7 +2,7 @@ class Dog < ActiveRecord::Base
   attr_accessor :name, :breed
   
   
-  def self.update
+  def self.update(x)
       
   end 
   
