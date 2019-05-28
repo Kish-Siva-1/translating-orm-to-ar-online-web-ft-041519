@@ -4,7 +4,6 @@ class Dog < ActiveRecord::Base
   
   def self.update(x)
     binding.pry
- 
   end 
   
   def self.find_by_name(name)
